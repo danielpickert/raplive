@@ -11,7 +11,6 @@ class Beats extends Component {
           url="https://youtu.be/nTOpemD2QTA?t=21"
           width="50%"
           height="50%"
-          url="https://youtu.be/nTOpemD2QTA?t=21"
           playing
         />
       </div>

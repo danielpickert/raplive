@@ -3,7 +3,7 @@ import Webcam from "react-webcam";
 
 class Cam extends Component {
   render() {
-    return <Webcam />;
+    return <Webcam className="webcam" />;
   }
 }
 

@@ -10,7 +10,7 @@ import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from "react-bootstrap";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App-header">
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
@@ -33,19 +33,15 @@ class App extends Component {
             </NavDropdown>
           </Nav>
         </Navbar>
-        <header className="App-header">
-          <img
-            src={"http://www.raysdvds.org/headshots/cast/Eminem.jpg"}
-            className="App-logo"
-            alt="logo"
-          />
-          <h1 className="App-title">Welcome to Rap Live</h1>
-        </header>
 
         <body>
-          <div class="webcam">
-            <Beats />
-            <Cam />
+          <div class="App">
+            <div class="react-player">
+              <Beats />
+            </div>
+            <div class="cam-container">
+              <Cam />
+            </div>
           </div>
         </body>
       </div>
