@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-// import Webcam from "react-webcam";
 import Beats from "./components/Beats";
 import Cam from "./components/Cam";
 
@@ -14,7 +13,7 @@ class App extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Rap Live</a>
+              <a href="/">Rap Live</a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav>
@@ -35,13 +34,9 @@ class App extends Component {
         </Navbar>
 
         <body>
-          <div class="App">
-            <div class="react-player">
-              <Beats />
-            </div>
-            <div class="cam-container">
-              <Cam />
-            </div>
+          <div className="App">
+            <Cam />
+            <Beats />
           </div>
         </body>
       </div>

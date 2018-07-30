@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -28,26 +30,20 @@
   to { transform: rotate(360deg); }
 }
 
-.cam-container {
-  margin: 0px 50% 0px 0px;
-  border: 5px solid #AF1919;
-  box-shadow: 2px 3px 3px 3px #1b1b1b;
-
-}
 
 .react-player {
-  margin: 0px 0px 0px 50%;
+  margin: 0px 0px 0px 10%;
 
 }
 
 .webcam {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   display: flex;
   align-self: flex-start;
+  margin: 5% 0px 0px 0px;
+  border: 5px solid #AF1919;
+  box-shadow: 2px 3px 3px 3px #1b1b1b;
 }
 
-h4 {
-  margin: 0px 0px 0px 50%;
-}
 
