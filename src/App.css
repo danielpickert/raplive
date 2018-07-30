@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
   height: 80px;
+  border-radius: 5px;
 }
 
 .App-header {
@@ -25,5 +26,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.webcam {
+  margin: 0px auto;
+  border: 5px solid #AF1919;
+  box-shadow: 2px 3px 3px 3px #1b1b1b;
 }
 
