@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Webcam from "react-webcam";
+// import Webcam from "react-webcam";
+import Beats from "./components/Beats";
+import Cam from "./components/Cam";
 
 import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from "react-bootstrap";
 
@@ -42,7 +44,8 @@ class App extends Component {
 
         <body>
           <div class="webcam">
-            <Webcam />
+            <Beats />
+            <Cam />
           </div>
         </body>
       </div>
